@@ -93,7 +93,7 @@ const Input = () => {
             onChange={(e) => setInput(e.target.value)}
             rows='2'
             placeholder="  What's happening"
-            className='bg-transparent outline-none text-[#d9d9d9] text-lg placeholder-gray-500 tracking-wide w-full min-h-[50px] max-h-[100px] no-scrollbar' />
+            className='textarea bg-transparent outline-none text-[#d9d9d9] text-lg placeholder-gray-500 tracking-wide w-full min-h-[50px] max-h-[100px] no-scrollbar' />
 
           {selectedFile && (
             <div className='relative' >

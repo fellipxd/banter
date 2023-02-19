@@ -33,7 +33,7 @@ const Feed = () => {
           setPosts(snapshot.docs);
         }
       ),
-    [db]
+    []
   );
 
   return (

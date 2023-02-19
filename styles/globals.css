@@ -15,6 +15,15 @@
   .icon {
     @apply cursor-pointer w-9 h-9 hover:bg-[#1d9bf0] hover:bg-opacity-10 flex items-center justify-center rounded-full transition duration-200 ease-out;
   }
+
+  .modalButton {
+    @apply bg-[#1d9bf0] text-white rounded-full px-4 py-1.5 font-bold shadow-md hover:bg-[#1a8cd8] disabled:hover:bg-[#1d9bf0] disabled:opacity-50 disabled:cursor-default;
+  }
+
+  .textarea {
+    @apply resize-none p-2 w-full  overflow-y-scroll;
+  }
+
   /* Hide scrollbar for Chrome, Safari and Opera */
   .no-scrollbar::-webkit-scrollbar {
     display: none;
